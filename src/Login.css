@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    /* -webkit-box-sizing: border-box; */
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+  }
+  
+   .wrapper p {
+    font-size: 0.85rem;
+    margin-top: 1rem;
+  }
+  
+  .form {
+    padding: 1.5rem;
+    -ms-flex-preferred-size: 100vw;
+    flex-basis: 100vw;
+  }
+  
+  .form .heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .or {
+    margin: 1rem 0;
+  }
+  
+  .form label {
+    display: block;
+    margin: 1.25rem 0 1rem 0;
+  }
+  .form input {
+    height: 40px;
+    width: 100%;
+    padding: 15px;
+    background-color: #f1f9ff;
+    border: 2px solid #bce0fd;
+    border-radius: 8px;
+  }
+  
+  .form button {
+    height: 40px;
+    width: 100%;
+    background-color: #EE3A5D;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  /* @media (min-width: 542px) {
+    body {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+    .form {
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+    }*/
+    .form input {
+      width: 250px;
+    }
+  /* }  */
+  
+  /* @media (max-width: 680px) {
+    .illustration {
+      display: none;
+    }
+  } */
+  
+  button:hover {
+    filter: brightness(95%);
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+
+  .wrapper{
+    padding-top: 180px;
+    display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+} 
